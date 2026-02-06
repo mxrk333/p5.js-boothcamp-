@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Paint App</title>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Paint App</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
 
-  <!-- p5.js library -->
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.3/lib/p5.min.js"></script>
-</head>
-<body>
+    <!-- App -->
+    <script src="src/app/PaintApp.js"></script>
 
-  <!-- Your sketch -->
-  <script src="p5-test.js"></script>
+    <!-- UI -->
+    <script src="src/ui/UI.js"></script>
 
-</body>
-</html>
+    <!-- Brushes -->
+    <script src="src/brush/BaseBrush.js"></script>
+    <script src="src/brush/CircleBrush.js"></script>
+    <script src="src/brush/SquareBrush.js"></script>
+    <script src="src/brush/Brush.js"></script>
+
+    <!-- Tests -->
+    <script src="src/tests/testRunner.js"></script>
+    <script src="src/tests/paintApp.test.js"></script>
